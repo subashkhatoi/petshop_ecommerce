@@ -1,0 +1,105 @@
+@media (max-width: 768px) {
+  .Cust-col{
+      width: 50% !important;
+    }
+    .pl-Cust-col{
+      width: 50% !important;
+    }
+  #hero {
+    height: 100vh;
+  }
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero .btn-get-started, #hero .btn-watch-video {
+    font-size: 13px;
+  }
+  .orders-main{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wallet-main{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .weh-desc{
+    margin-top: 15px;
+  }
+  .currentPrice{
+      font-size: 15px !important;
+    }
+    .pd-card{
+      margin-top: -40px;
+    }
+    .product-title{
+      margin-top: -90px !important;
+    }
+}
+
+@media (min-width: 768px) {
+  .orders-main{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wallet-main{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .currentPrice{
+      font-size: 18px !important;
+    }
+  .search-pincode{
+    width: 42%;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  .breadcrumbs {
+    margin-top: 58px;
+  }
+  .banner-img{
+    margin-top: -23px;
+  }
+  .cart-system-view{
+    display: none;
+  }
+  .c-title{
+    font-size: 12px;
+  }
+  .Cust-col{
+      width: 25%;
+    }
+    .pl-Cust-col{
+      width: 25%;
+    }
+    .all-products-Cust-col{
+      width: 25%;
+    }
+    .Cust-col:last-child{
+      display: none !important;
+    }
+}
+
+@media (min-width: 992px) {
+  .breadcrumbs {
+    margin-top: 58px;
+  }
+  .cart-mobile-view{
+    display: none;
+  }
+  .banner-img{
+    margin-top: -17px;
+  }
+}
