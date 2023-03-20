@@ -23,9 +23,9 @@ class ForwardController extends Controller
             CURLOPT_TIMEOUT => 30,
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
             CURLOPT_CUSTOMREQUEST => "POST",
-            CURLOPT_POSTFIELDS => "{\"flow_id\":\"610579ddf5076b737435324c\",\"sender\":\"MAWBAW\",\"recipients\":[{\"mobiles\":\"$no1\",\"VAR1\":\"$otp\"}]}",
+            CURLOPT_POSTFIELDS => "{\"flow_id\":\"610579ddf5076b7374353\",\"sender\":\"SENDER\",\"recipients\":[{\"mobiles\":\"$no1\",\"VAR1\":\"$otp\"}]}",
             CURLOPT_HTTPHEADER => array(
-                "authkey: 365098AWztsTMesXvN610575dbP1",
+                "authkey: 365098AWztsTMesXvN610575",
                 "content-type: application/json"
             ),
         ));
@@ -58,9 +58,9 @@ class ForwardController extends Controller
             CURLOPT_TIMEOUT => 30,
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
             CURLOPT_CUSTOMREQUEST => "POST",
-            CURLOPT_POSTFIELDS => "{\"flow_id\":\"61057ab6bc2c4572b44ce56f\",\"sender\":\"MAWBAW\",\"recipients\":[{\"mobiles\":\"$no1\",\"NAME\":\"$name\",\"ORDERID\":\"$order_id\"}]}",
+            CURLOPT_POSTFIELDS => "{\"flow_id\":\"61057ab6bc2c4572b44c\",\"sender\":\"SENDER\",\"recipients\":[{\"mobiles\":\"$no1\",\"NAME\":\"$name\",\"ORDERID\":\"$order_id\"}]}",
             CURLOPT_HTTPHEADER => array(
-                "authkey: 365098AWztsTMesXvN610575dbP1",
+                "authkey: 365098AWztsTMesX",
                 "content-type: application/json"
             ),
         ));
